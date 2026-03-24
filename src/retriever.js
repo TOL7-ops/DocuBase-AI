@@ -1,7 +1,7 @@
 const db = require('./db');
 
 const TOP_K     = 5;
-const MIN_SCORE = 0.35;
+const MIN_SCORE = 0.20;
 // Embedding dims: 384 (sentence-transformers/all-MiniLM-L6-v2)
 
 function cosineSimilarity(a, b) {
